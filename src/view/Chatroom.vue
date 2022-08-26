@@ -45,7 +45,7 @@ import {ref} from 'vue'
 export default {
 setup(){
 let userNamene = prompt("Skriv in ditt användarnamn")
-const socket = io("https://desolate-everglades-50260.herokuapp.com/")
+const socket = io("https://backendsocketiochat.herokuapp.com/")
 const messages = ref("")
 const errorInputCreate = ref("")
 const errorInputMessage = ref("")
